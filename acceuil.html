@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Acceuil</title>
+    <link rel="stylesheet" href="acceuil.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=BBH+Hegarty&family=Bangers&family=Barrio&family=Climate+Crisis:YEAR@1979&family=Dynalight&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Lobster&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&family=Niconne&family=Patua+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rubik+Mono+One&family=Sekuya&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Stalinist+One&display=swap");
+    </style>
+  </head>
+  <body>
+    <div class="nav-bar">
+      <div class="logo">
+        <a class="titre" href="acceuil.html"> Atypiquement Amoureux.se </a>
+      </div>
+      <div class="liens">
+        <a class="lien" href="agences.html">Rencontres</a>
+        <a class="lien" href="temoignages.html">Témoignages</a>
+        <a class="lien" href="contact.html">S'inscrire</a>
+        <a class="lien profils" href="profils.html"> 🔎 Profils</a>
+      </div>
+    </div>
+
+    <div class="contenu-1">
+      <h1>L'amour avec un grand A</h1>
+
+      <div class="container">
+        <input type="checkbox" id="sent-toggle" />
+
+        <div class="formulaire">
+          <h2 class="contact">Nous contacter :</h2>
+          <section>
+            <label for="nom">Nom de famille :</label>
+            <input type="text" id="nom" name="nom" />
+            <br />
+            <label for="prenom">Prénom :</label>
+            <input type="text" id="prenom" name="prenom" />
+          </section>
+          <label>Votre email :</label>
+          <input type="email" placeholder="Votre email" required />
+          <label>Votre message :</label>
+          <textarea rows="4" placeholder="Votre message" required></textarea>
+          <label for="sent-toggle" class="btn">Envoyer</label>
+        </div>
+
+        <div id="success-message">Bien envoyé !</div>
+      </div>
+    </div>
+
+    <h2 class="stat">Notre site en quelques chiffres ...</h2>
+    <div class="contenu-2">
+      <div class="colonne">
+        <img class="icone" src="images/etoile.png" />
+        <p class="avis">100% des profils sont vérifiés</p>
+      </div>
+      <div class="colonne">
+        <img class="icone" src="images/fille.png" />
+        <p class="avis">1 personne sur 2 connait notre site</p>
+      </div>
+      <div class="colonne">
+        <img class="icone" src="images/lettre-damour.png" />
+        <p class="avis">2 personnes sur 3 trouvent l'amour sur notre site</p>
+      </div>
+    </div>
+    <div class="contenu-3">
+      <h2 class="pourquoi">Pourquoi notre agence ?</h2>
+      <p>Trouvez l'amour auprès d'une personne qui vous ressemble</p>
+      <img
+        class="neuro"
+        src="images/neuro.jpg"
+        alt="photo scrable neurodiversité"
+      />
+      <p>
+        La neurodiversité est un concept utilisé par les mouvements sociaux
+        combattant le capacitisme pour faire connaître des différences au sein
+        de l'espèce humaine et les faire accepter en tant que variabilités
+        neurologiques
+        <span
+          ><a
+            class="span"
+            href="https://fr.wikipedia.org/wiki/Neurodiversit%C3%A9"
+            >"la neurodiversité sur Wikipédia"</a
+          >.</span
+        >
+      </p>
+    </div>
+    <footer>
+      <p class="grand">© Tout droits réservés à Bérénice Thébault.</p>
+      <p class="grand">Les images viennet de Unsplash et Flaticon.</p>
+      <p class="grand">La typographie vient de Google Fonts.</p>
+      <div class="row">
+        <a class="lien bas" href="acceuil.html">Acceuil</a>
+        <a class="lien bas" href="agences.html">Rencontres</a>
+        <a class="lien bas" href="temoignages.html">Témoignages</a>
+        <a class="lien bas" href="contact.html">S'inscrire</a>
+      </div>
+      <a class="lien profils bas" href="profils.html"> 🔎 Profils</a>
+    </footer>
+  </body>
+</html>
