@@ -391,6 +391,10 @@ footer {
   .t {
     font-size: 20px;
   }
+  .lien2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
   footer {
     width: 100%;
     height: 800px;
