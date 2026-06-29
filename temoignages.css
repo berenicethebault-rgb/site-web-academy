@@ -177,7 +177,7 @@ footer {
   font-size: 24px;
 }
 
-@media only screen and (max-width: 464px) {
+@media only screen and (max-width: 467px) {
   /* Styles mobile */
   .nav-bar {
     width: auto;
@@ -193,7 +193,7 @@ footer {
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
   }
 
