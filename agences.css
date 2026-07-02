@@ -389,6 +389,7 @@ footer {
   }
   .even {
     font-size: 25px;
+    padding: 70px;
   }
   .activite {
     flex-direction: column;
