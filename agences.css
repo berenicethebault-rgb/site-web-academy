@@ -396,6 +396,10 @@ footer {
   .activite {
     flex-direction: column;
   }
+
+  .profils {
+    margin: 70px;
+  }
   .act {
     width: 300px;
     height: auto;
