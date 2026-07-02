@@ -382,7 +382,8 @@ footer {
   }
   .ville {
     width: 100%;
-    height: 700px;
+    height: 900px;
+    gap: 10px;
   }
   .even {
     font-size: 25px;
